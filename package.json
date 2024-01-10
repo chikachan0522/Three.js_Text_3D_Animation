@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://chikachan0522.github.io/three.js_text_3d_animation/",
   "scripts": {
-    "start": "webpack server"
+    "start": "webpack serve",
+    "build": "webpack",
+    "deploy": "npm run build && gh-pages -d dist"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "chikachan0522",
   "devDependencies": {
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.9.0",
+    "gh-pages": "^6.1.1",
     "style-loader": "^3.3.4",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4",

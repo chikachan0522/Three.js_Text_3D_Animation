@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://chikachan0522.github.io/three.js_text_3d_animation/",
+  "homepage": "https://chikachan0522.github.io/Three.js_Text_3D_Animation/",
   "scripts": {
     "start": "webpack serve",
     "build": "webpack",
